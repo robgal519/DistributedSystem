@@ -36,8 +36,8 @@ if __name__ == "__main__":
         for e in n:
             id = int(e)
             if(id<nodes):
-                nn[id] = 1;
-        neighbours.append(nn);
+                nn[id] = 1
+        neighbours.append(nn)
     # print(neighbours);
 
     for e in range(nodes):

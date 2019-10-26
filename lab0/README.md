@@ -1,6 +1,6 @@
 # Build project
 ## Python version
-This scripr uses python 3.7, please make sure that you use python 3 to run it.
+This script uses python 3.7, please make sure that you use python 3 to run it.
 
 It is good practice to run pythoin scripts in virtual environment, but this one does not have any dependency, therefore it is not needed.
 
