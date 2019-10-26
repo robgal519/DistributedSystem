@@ -20,4 +20,4 @@ On this snapshot all nodes create their requests ( which are treated like happen
 As the output we can see the log with state of the system. nodes raport when they enter CS and when they leave. Every ACK and request is also reported.
 
 # Application in Zip
-[Download zip file](https://github.com/robgal519/DistributedSystem/releases/download/v0.1/lab0.zip)
+[Download zip file](https://github.com/robgal519/DistributedSystem/releases/download/v0.1/lab1.zip)
