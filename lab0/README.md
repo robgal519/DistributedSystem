@@ -21,3 +21,6 @@ This example will generate following output:
 ![OutputImage](doc/img/Output.png)
 
 As one can seem the nodes 0 and 1 can reach all other nodes of the graph, but node 2 can not.
+
+# Application in Zip
+[Download zip file](https://github.com/robgal519/DistributedSystem/releases/download/v0.0/lab0.zip)
