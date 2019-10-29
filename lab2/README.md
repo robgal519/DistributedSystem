@@ -40,4 +40,4 @@ on the output the log can be seen of how the CS moved through the network
 >node 1 got to CS
 
 # Application in Zip
-[Download zip file](https://github.com/robgal519/DistributedSystem/releases/download/v0.2/lab1.zip)
+[Download zip file](https://github.com/robgal519/DistributedSystem/releases/download/v0.2/lab2.zip)
