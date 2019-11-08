@@ -1,6 +1,6 @@
 
 import random
-max_priv_value = 1
+
 cycle_detected = False
 class Node:
     def __init__(self, private):
@@ -14,10 +14,8 @@ class Node:
         self.parents.append(parent)
         nodes[parent].childs.append(self.id)
         # set private key
-        global max_priv_value
-        self.setNewPrivateKey(int(random.random()*20))
-        max_priv_value = max_priv_value + 1
-
+        self.setNewPrivateKey(int(random.random()*2*number_of_nodes))
+        
         new_value = max(nodes[parent].public, self.public) + 1
         self.setNewPrivateKey(new_value)
 
@@ -41,7 +39,7 @@ class Node:
 
 
 if __name__ == "__main__":
-    nodes = [Node(i) for i in range(10)]
+    
 
     graph = {
         0:[1],
@@ -49,9 +47,15 @@ if __name__ == "__main__":
         2:[3],
         3:[4],
         4:[5],
-        5:[0]
+        5:[]
   
     }
+
+    number_of_nodes = len(graph)
+
+    nodes = [Node(i) for i in range(number_of_nodes)]
+
+
 
     for parent, childs in graph.items():
         for child in childs:
